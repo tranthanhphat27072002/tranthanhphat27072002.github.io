@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang chủ</title>
+    <link rel="reset" href="../CSS/reset.css">
+    <link rel="stylesheet" href="../CSS/stylesheet1.css">
+    <link rel="stylesheet" href="../CSS/content.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+<body style="background-color: #002955;">
+    <div class="all">
+        <div class="menu">
+            <div class="up">
+                <ul>
+                    <li>
+                        <a href="../HTML/trangchu.html"><img src="../Hình ảnh/Logov1.svg" alt="" align="center"
+                                style="width:120px ; height: 48px; padding-right: 50px;"></a>
+                    </li>
+                    <li>
+                        <a href="trangchu.html">
+                            <i class="fas fa-home"></i> Trang chủ
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../HTML/giohang.html">
+                            <i class="fas fa-shopping-cart"></i>Giỏ hàng
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../HTML/phanhoi.html">
+                            <i class="fas fa-comments"></i> Phản hồi
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <i class="fas fa-bullhorn"></i> Thông báo
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <i class="fas fa-angle-double-right"></i>Thêm
+                        </a>
+                    </li>
+                </ul>
+                <div class="menu-dangnhap">
+                    <button onclick="showformdangnhap()">Đăng nhập</button>
+                    <button onclick="showformdangky()">Đăng ký</button>
+                </div>
+            </div>
+            
+            <div class="down">       
+                <div class="find">
+                    <input type="text" placeholder="Mục tìm kiếm" size="30"><button><a href=""><i
+                                class="fas fa-search"></a></i></button>
+                </div>
+            </div>
+        </div>
+        <div>
+
+        </div>
+        <div>
+            <nav class="in4">
+                <h2 id="tt">Phân loại sản phẩm</h2>
+                <hr>
+                <ul>
+                    <li>
+                        <a href=""> <i class="fa-solid fa-mobile-screen-button"></i> Điện thoại </a>
+                        <div class="in4m">
+                            <a href="" >Iphone</a><br>
+                            <a href="" >Oppo</a> <br>
+                            <a href="" >Samsung</a><br>
+                            <a href="" >Nokia</a> <br>
+                            <a href="" >Vivo</a> <br>
+                            <a href="" >Xiaomi</a> <br>
+                            <a href="" >Realmi</a> <br>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="../HTML/apple.html"><i class="fa-brands fa-apple"></i> Apple </i></a>
+                        <div class="in4m">
+                            <a href="" >Iphone15 series</a> <br>
+                            <a href="" >Iphone14 series</a> <br>
+                            <a href="" >Iphone 13 series</a> <br>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="../HTML/samsung.html">Samsung</a>
+                        <div class="in4m">
+                            <a href="" >Chuyên trang SamSung</a> <br>
+                            <a href="" >Galaxy Z</a> <br>
+                            <a href="" >Galaxy S</a> <br>
+                            <a href="" >Galaxy Note</a> <br>
+                            <a href="" >Galaxy A</a> <br>
+                            <a href="" >Galaxy M</a> <br>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="../HTML/tablet.html"> <i class="fa-solid fa-tablet-button"></i> Tablet</a>
+                        <div class="in4m">
+                            <a href="" >Ipad Pro</a> <br>
+                            <a href="" >Ipad Air</a> <br>
+                            <a href="" >Ipad Gen</a> <br>
+                            <a href="" >Ipad Mini</a> <br>
+                            <a href="" >Samsung Tab</a> <br>
+                            <a href="" >Nokia Tab</a> <br>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="../HTML/laptop.html"><i class="fa-solid fa-laptop"></i> Laptop</a>
+                        <div class="in4m">
+                            <a href="" >Macbook</a> <br>
+                            <a href="" >Dell</a> <br>
+                            <a href="" >Hp</a> <br>
+                            <a href="" >Lenovol</a> <br>
+                            <a href="" >Asus</a> <br>
+                            <a href="" >Laptop Gaming</a> <br>
+                        </div>
+                    </li>
+                </ul>
+                <hr>
+                <div>
+                    <img src="../Hình ảnh/quangcao.png.crdownload" alt="" width="300px" height="300px">
+                </div>
+            </nav>
+            <div id="content">
+                <ul class="contents">
+                    <li class="content-item">
+                        <div class="content-top">
+                            <a href="../ThongtinSP/dell3040.html" class="content-thump">
+                                <img src="../Hình ảnh/phone/3.jpg" alt="">
+                            </a>
+                            <a href="../ThongtinSP/dell3040.html" class="buy">Thêm vào giỏ hàng</a>
+                        </div>
+                        <div class="content-info">
+                            <a href="../ThongtinSP/dell3040.html" class="content-a">Laptop</a>
+                            <a href="../ThongtinSP/dell3040.html" class="content-name"><b>DELL Vostro 3040</b></a>
+                            <div class="content-money">16.000.000đ</div>
+                        </div>
+                    </li>
+                    <li class="content-item">
+                        <div class="content-top">
+                            <a href="../ThongtinSP/dell3040.html" class="content-thump">
+                                <img src="../Hình ảnh/phone/4.jpg" alt="">
+                            </a>
+                            <a href="../ThongtinSP/dell3040.html" class="buy">Thêm vào giỏ hàng</a>
+                        </div>
+                        <div class="content-info">
+                            <a href="../ThongtinSP/dell3040.html" class="content-a">Laptop</a>
+                            <a href="../ThongtinSP/dell3040.html" class="content-name"><b>DELL Vostro 3045</b></a>
+                            <div class="content-money">18.000.000đ</div>
+                        </div>
+                    </li>
+                    <li class="content-item">
+                        <div class="content-top">
+                            <a href="" class="content-thump">
+                                <img src="../Hình ảnh/phone/5.jpeg" alt="">
+                            </a>
+                            <a href="" class="buy">Thêm vào giỏ hàng</a>
+                        </div>
+                        <div class="content-info">
+                            <a href="" class="content-a">Tablet</a>
+                            <a href="" class="content-name"><b>Ipad Air 4</b></a>
+                            <div class="content-money">16.800.000đ</div>
+                        </div>
+                    </li>
+                    <li class="content-item">
+                        <div class="content-top">
+                            <a href="" class="content-thump">
+                                <img src="../Hình ảnh/phone/1.jpg" alt="">
+                            </a>
+                            <a href="" class="buy">Thêm vào giỏ hàng</a>
+                        </div>
+                        <div class="content-info">
+                            <a href="" class="content-a">Laptop</a>
+                            <a href="" class="content-name"><b>Acer Aspire 3</b></a>
+                            <div class="content-money">25.450.000đ</div>
+                        </div>
+                    </li>
+                    <li class="content-item">
+                        <div class="content-top">
+                            <a href="../ThongtinSP/Iphone11.html" class="content-thump">
+                                <img src="../Hình ảnh/phone/7.jpg" alt="">
+                            </a>
+                            <a href="../ThongtinSP/Iphone11.html" class="buy">Thêm vào giỏ hàng</a>
+                        </div>
+                        <div class="content-info">
+                            <a href="../ThongtinSP/Iphone11.html" class="content-a">Iphone</a>
+                            <a href="../ThongtinSP/Iphone11.html" class="content-name">Iphone 11</a>
+                            <div class="content-money">14.500.000đ</div>
+                        </div>
+                    </li>
+                    <li class="content-item">
+                        <div class="content-top">
+                            <a href="../ThongtinSP/iphone13.html" class="content-thump">
+                                <img src="../Hình ảnh/phone/8.jpg" alt="">
+                            </a>
+                            <a href="../ThongtinSP/iphone13.html" class="buy">Thêm vào giỏ hàng</a>
+                        </div>
+                        <div class="content-info">
+                            <a href="../ThongtinSP/iphone13.html" class="content-a">Apple</a>
+                            <a href="../ThongtinSP/iphone13.html
+                            " class="content-name">Iphone 13</a>
+                            <div class="content-money">21.000.000đ</div>
+                        </div>
+                    </li>
+                    <li class="content-item">
+                        <div class="content-top">
+                            <a href="../ThongtinSP/iphone13prm.html" class="content-thump">
+                                <img src="../Hình ảnh/phone/9.jpg" alt="">
+                            </a>
+                            <a href="../ThongtinSP/iphone13prm.html" class="buy">Thêm vào giỏ hàng</a>
+                        </div>
+                        <div class="content-info">
+                            <a href="../ThongtinSP/iphone13prm.html" class="content-a">Apple</a>
+                            <a href="../ThongtinSP/iphone13prm.html" class="content-name">Iphone 13 Promax</a>
+                            <div class="content-money">32.200.000đ</div>
+                        </div>
+                    </li>
+                    <li class="content-item">
+                        <div class="content-top">
+                            <a href="../ThongtinSP/iphonexsmax.html" class="content-thump">
+                                <img src="../Hình ảnh/phone/10.jpg" alt="">
+                            </a>
+                            <a href="../ThongtinSP/iphonexsmax.html" class="buy">Thêm vào giỏ hàng</a>
+                        </div>
+                        <div class="content-info">
+                            <a href="../ThongtinSP/iphonexsmax.html" class="content-a">Apple</a>
+                            <a href="../ThongtinSP/iphonexsmax.html" class="content-name">Iphone XS Max</a>
+                            <div class="content-money">23.650.000đ</div>
+                        </div>
+                    </li>
+                    <li class="content-item">
+                        <div class="content-top">
+                            <a href="" class="content-thump">
+                                <img src="../Hình ảnh/phone/11.jpg" alt="">
+                            </a>
+                            <a href="" class="buy">Thêm vào giỏ hàng</a>
+                        </div>
+                        <div class="content-info">
+                            <a href="" class="content-a">Laptop</a>
+                            <a href="" class="content-name"><b>DELL Vostro 15 </b></a>
+                            <div class="content-money">19.999.000đ</div>
+                        </div>
+                    </li>
+                    <li class="content-item">
+                        <div class="content-top">
+                            <a href="" class="content-thump">
+                                <img src="../Hình ảnh/phone/12.jpg" alt="">
+                            </a>
+                            <a href="" class="buy">Thêm vào giỏ hàng</a>
+                        </div>
+                        <div class="content-info">
+                            <a href="" class="content-a">Oppo</a>
+                            <a href="" class="content-name"><b>Oppo A16k</b></a>
+                            <div class="content-money">8.000.000đ</div>
+                        </div>
+                    </li>
+                    <li class="content-item">
+                        <div class="content-top">
+                            <a href="" class="content-thump">
+                                <img src="../Hình ảnh/phone/13.jpeg" alt="">
+                            </a>
+                            <a href="" class="buy">Thêm vào giỏ hàng</a>
+                        </div>
+                        <div class="content-info">
+                            <a href="" class="content-a">SamSung</a>
+                            <a href="" class="content-name"><b>SamSung Galaxy S21FE</b> </a>
+                            <div class="content-money">30.099.000đ</div>
+                        </div>
+                    </li>
+                    <li class="content-item">
+                        <div class="content-top">
+                            <a href="" class="content-thump">
+                                <img src="../Hình ảnh/phone/14.jpg" alt="">
+                            </a>
+                            <a href="" class="buy">Thêm vào giỏ hàng</a>
+                        </div>
+                        <div class="content-info">
+                            <a href="" class="content-a">SamSung</a>
+                            <a href="" class="content-name"><b>SamSung Galaxy S22</b></a>
+                            <div class="content-money">36.000.000đ</div>
+                        </div>
+                    </li>
+                    <li class="content-item">
+                        <div class="content-top">
+                            <a href="" class="content-thump">
+                                <img src="../Hình ảnh/phone/15.jpg" alt="">
+                            </a>
+                            <a href="" class="buy">Thêm vào giỏ hàng</a>
+                        </div>
+                        <div class="content-info">
+                            <a href="" class="content-a">SamSung</a>
+                            <a href="" class="content-name"><b>SamSung Galaxy Z-Flip 3</b></a>
+                            <div class="content-money">25.040.000đ</div>
+                        </div>
+                    </li>
+                    <li class="content-item">
+                        <div class="content-top">
+                            <a href="" class="content-thump">
+                                <img src="../Hình ảnh/phone/16.jpg" alt="">
+                            </a>
+                            <a href="" class="buy">Thêm vào giỏ hàng</a>
+                        </div>
+                        <div class="content-info">
+                            <a href="" class="content-a">Laptop</a>
+                            <a href="" class="content-name"><b>MSI Modern 14</b></a>
+                            <div class="content-money">14.640.000đ</div>
+                        </div>
+                    </li>
+                    <li class="content-item">
+                        <div class="content-top">
+                            <a href="" class="content-thump">
+                                <img src="../Hình ảnh/phone/17.jpg" alt="">
+                            </a>
+                            <a href="" class="buy">Thêm vào giỏ hàng</a>
+                        </div>
+                        <div class="content-info">
+                            <a href="" class="content-a">Laptop</a>
+                            <a href="" class="content-name"><b>Acer Nitro 5</b></a>
+                            <div class="content-money">17.790.000đ</div>
+                        </div>
+                    </li>
+                    <li class="content-item">
+                        <div class="content-top">
+                            <a href="" class="content-thump">
+                                <img src="../Hình ảnh/phone/18.jpg" alt="">
+                            </a>
+                            <a href="" class="buy">Thêm vào giỏ hàng</a>
+                        </div>
+                        <div class="content-info">
+                            <a href="" class="content-a">Tablet</a>
+                            <a href="" class="content-name"><b>Xiaomi Pad 5</b></a>
+                            <div class="content-money">9.190.000đ</div>
+                        </div>
+                    </li>
+                    <li class="content-item">
+                        <div class="content-top">
+                            <a href="" class="content-thump">
+                                <img src="../Hình ảnh/phone/19.jpg" alt="">
+                            </a>
+                            <a href="" class="buy">Thêm vào giỏ hàng</a>
+                        </div>
+                        <div class="content-info">
+                            <a href="" class="content-a">Laptop</a>
+                            <a href="" class="content-name"><b>Macbook Pro 13 M1</b></a>
+                            <div class="content-money">30.000.000đ</div>
+                        </div>
+                    </li>
+                    <li class="content-item">
+                        <div class="content-top">
+                            <a href="" class="content-thump">
+                                <img src="../Hình ảnh/phone/den-thumb.png" alt="">
+                            </a>
+                            <a href="" class="buy">Thêm vào giỏ hàng</a>
+                        </div>
+                        <div class="content-info">
+                            <a href="" class="content-a">Iphone</a>
+                            <a href="" class="content-name"><b>Iphone SE 3</b> </a>
+                            <div class="content-money">14.499.000đ</div>
+                        </div>
+                    </li>
+                    <li class="content-item">
+                        <div class="content-top">
+                            <a href="" class="content-thump">
+                                <img src="../Hình ảnh/phone/20.jpg" alt="">
+                            </a>
+                            <a href="" class="buy">Thêm vào giỏ hàng</a>
+                        </div>
+                        <div class="content-info">
+                            <a href="" class="content-a">Realmi</a>
+                            <a href="" class="content-name"><b>Realmi 6 pro</b></a>
+                            <div class="content-money">7.390.000đ</div>
+                        </div>
+                    </li>
+                    <li class="content-item">
+                        <div class="content-top">
+                            <a href="../ThongtinSP/SamsungS22Ultr.html" class="content-thump">
+                                <img src="../Hình ảnh/phone/21.jpg" alt="">
+                            </a>
+                            <a href="../ThongtinSP/SamsungS22Ultr.html" class="buy">Thêm vào giỏ hàng</a>
+                        </div>
+                        <div class="content-info">
+                            <a href="../ThongtinSP/SamsungS22Ultr.html" class="content-a">SamSung</a>
+                            <a href="../ThongtinSP/SamsungS22Ultr.html" class="content-name"><b>Samsung S22 Ultra</b></a>
+                            <div class="content-money">30.990.000đ</div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="end">
+            <div id="end1">
+               <p class="end10">Về Nhóm</p>
+               <p class="end4">Nhóm 5 thuộc lớp học phần DHCNTT16A - 420300214503 GV phụ trách: Từ Thị Xuân Hiền </p>
+               <p class="end4">
+                   <a href=""><i class="fa-brands fa-facebook"></i></a>
+                   <a href=""><i class="fa-brands fa-instagram"></i></a>
+                   <a href=""><i class="fa-brands fa-twitter"></i></a>
+
+               </p>
+            </div>
+            <div id="end2">
+                <p class="end10">Đường dẫn</p>
+                <p class="end5">
+                    <a href="../HTML/trangchu.html">Trang Chủ</a> <br>
+                    <a href="">Về nhóm</a> <br>
+                    <a href="">Thông Tin liên lạc</a> <br>
+                    <a href="">Dịch vụ</a> <br>
+                    <a href="">Chính sách</a> <br>
+                </p>
+
+            </div>
+            <div id="end3">
+                <p class="end10">Thông tin liên hệ</p>
+                <p class="">
+                    <table>
+                        <tr>
+                            <td><i class="fa-solid fa-location-dot"></i></td>
+                            <td>12 Nguyễn Văn Bảo, P.4, Q. Gò Vấp, TP.HCM.</td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-solid fa-phone"></i></td>
+                            <td> (028) 38940390 Fax: (028) 38946268</td>
+                        </tr>
+                        <tr>
+                            <td><i class="fa-solid fa-envelope"></i></td>
+                            <td>www.iuh.edu.vn</td>
+                        </tr>
+                    </table>
+                </p>
+            </div>
+        </div>
+
+        <!--nút contact-->
+        <div class="contact">
+            <div class="icon tel">
+                <div class="tooltip">Gọi ngay</div>
+                <span><img src="../Hình ảnh/icon_tel.jpg" alt="" onclick="showthongbaotel()"></span>
+            </div>
+            <div class="icon zl">
+                <div class="tooltip">Chat qua Zalo</div>
+                <span><img src="../Hình ảnh/icon_zalo.png" alt="" onclick="location.href='https://id.zalo.me/'"></span>
+            </div>
+            <div class="icon fb">
+                <div class="tooltip">Facebook Messenger</div>
+                <span><img src="../Hình ảnh/icon_mess.jpg" alt="" onclick="location.href='https://www.messenger.com/'"></span>
+            </div>
+        </div>
+        <div id="thongbao-tel">
+            <div class="modal">
+                <div class="modal__overlay"></div>
+                <div class="modal_body">
+                    <button class="btn-dongthongbaotel" onclick="dongthongbaotel()"><b>x</b></button>
+                    <div class="box-tel">
+                        <h3>Vui lòng để lại số điện thoại của bạn, chúng tôi sẽ gọi lại ngay cho bạn.</h3>
+                        <input class="input-tel" type="tel" id="guisodienthoai" placeholder="Số điện thoại của bạn..."><br>
+                        <button class="input-submit" onclick="guisodienthoai()">Yêu cầu gọi lại</button>
+                        <br>
+                        <hr>
+                        <h3><b>Hoặc liên hệ với chúng tôi theo hotline:</b></h3> <br>
+                        <img src="../Hình ảnh//Logov1.svg" alt="">
+                        <h1>0966326340</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!--form đăng nhập-->
+        <div id="dang-nhap">
+            <div class="modal">
+                <div class="modal__overlay"></div>
+                <div class="modal_body">
+                    <div class="form_dangky">
+                        <div class="container">
+                            <div class="form_dangky__heading">
+                                <img src="../Hình ảnh/Logov1-Small.png" alt=""style="width:120px ; height: 48px; padding-right: 50px; padding-top: 20px;">
+                                <h1 class="form_dangky-heading">Đăng nhập</h1> 
+                            </div>
+                            <div class="form_dangky_form">
+                                <input type="text" id="ip_tendangnhap_dangnhap" class="form_dangky_input" placeholder="Tên đăng nhập"> <br>
+                                <input type="password" id="ip_matkhau_dangnhap" class="form_dangky_input" placeholder="Mật khẩu"> <br>
+                            </div>
+                            <h2>Hoặc đăng nhập bằng:</h2>
+                            <div class="lienket">
+                                <button style="background-color: #3B5998;"><i class="fa fa-facebook-official"></i>Facebook</button>
+                                <button style="background-color: #EA4335;" onclick="location.href='https://accounts.google.com/'"><i class="fa fa-google"></i>Google</button>
+                            </div>
+                            <div class="form_dangky__controls">
+                                <button class="btn form_dangky__controls-back" onclick="dongformdangnhap()">THOÁT</button>
+                                <button class="btn btn--primary" type="submit" onclick="check_dangnhap()">ĐĂNG NHẬP</button>
+                            </div>
+                            <div class="form_dangky__controls" style="padding-top: 10px; padding-bottom: 10px;">
+                                <text style="font-size: 20px; margin-top:5px;margin-right: 10px;color:red;"><b>Nếu bạn chưa có tài khoản</b></text>
+                                <button class="btn" onclick="dongformdangnhap(), showformdangky()">ĐĂNG KÝ</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--form đăng ký-->
+        <div id="dang-ky">
+            <div class="modal">
+                <div class="modal__overlay"></div>
+                <div class="modal_body">
+                    <div class="form_dangky">
+                        <div class="container">
+                            <div class="form_dangky__heading">
+                                <img src="../Hình ảnh/Logov1-Small.png" alt=""style="width:120px ; height: 48px; padding-right: 50px; padding-top: 20px;">
+                                <h1 class="form_dangky-heading">Đăng ký</h1>
+                            </div>
+                            <div id="ip_dangky" class="form_dangky_form">
+                                <input type="text" id="ip_tendangnhap" class="form_dangky_input" placeholder="Tên đăng nhập"> <br>
+                                <input type="password" id="ip_matkhau" class="form_dangky_input" placeholder="Mật khẩu"> <br>
+                                <input type="password" id="ip_nhaplaimatkhau" class="form_dangky_input" placeholder="Nhập lại mật khẩu"> <br>
+                                <input type="email" id="ip_email"  class="form_dangky_input" placeholder="Email"> <br>
+                                <input type="tel" id="ip_tel"  class="form_dangky_input" placeholder="Số điện thoại">
+                            </div>
+                            <h2>Hoặc đăng nhập bằng:</h2>
+                            <div class="lienket">
+                                <button style="background-color: #3B5998;"><i class="fa fa-facebook-official"></i>Facebook</button>
+                                <button style="background-color: #EA4335;"><i class="fa fa-google"></i>Google</button>
+                            </div>
+                            <div class="form_dangky__controls">
+                                <button class="btn form_dangky__controls-back" onclick="dongformdangky()">THOÁT</button>
+                                <button class="btn btn--primary" onclick="check_dangky()">ĐĂNG KÝ</button>
+                            </div>
+                            <div class="form_dangky__controls" style="padding-top: 10px; padding-bottom: 10px;">
+                                <text style="font-size: 20px; margin-top:5px;margin-right: 10px;color:red;"><b>Nếu bạn đã có tài khoản</text>
+                                <button class="btn" onclick="dongformdangky(), showformdangnhap()"> ĐĂNG NHẬP</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../Javascript/index.js"></script>
+</body>
+
+</html>

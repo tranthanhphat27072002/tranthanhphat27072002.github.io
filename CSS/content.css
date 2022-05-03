@@ -1,0 +1,80 @@
+#content{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    color: black;
+    line-height: 1.15;
+}
+ul.contents {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+}
+ul.contents li{
+    flex-basis: 20%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+    transition: all 1s;
+    background-color: rgb(245, 241, 241);
+}
+
+ul.contents li:hover{
+    -webkit-transform: scale(1.2); transform: scale(1.2); 
+}
+
+ul.contents li img{
+    max-width: 100%;
+    height: auto;
+	transition: all 1s;
+
+}
+ul.contents li div.content-top{
+    display: block;
+    overflow: hidden;
+}
+
+ul.contents li div.content-top img{
+    display: block;
+}
+
+
+ul.contents li div.content-top a.buy{
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    color: red;
+    display: block;
+    background-color: #fff;
+    padding: 10px 0px;
+    transition: 0.25s ease-in-out;
+
+}
+
+ul.contents li div.content-top a.buy:hover{
+    background: #D3D3D3;
+    background: -webkit-linear-gradient(to right, #D3D3D3, #D3D3D3);
+    background: linear-gradient(to right, #D3D3D3, #D3D3D3);
+    -webkit-transform: scale(1.1); transform: scale(1.1);
+}
+
+ul.contents li .content-info a{
+    display: block;
+    text-decoration: none;
+}
+ul.contents li .content-info a.content-name{
+    color: black;
+    padding: 2px 0px;
+}
+ul.contents li .content-info div.content-money{
+    color: red;
+    padding: 2px 0px;
+    font-weight: 700;
+}
+

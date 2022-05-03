@@ -1,0 +1,384 @@
+.all{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    margin: auto;
+
+}
+.menu{
+    width: 100%;
+    height: auto;
+    background-color: #002955;
+    margin: auto;
+    
+    font-size: large;
+
+}
+.up{
+    width: 80%;
+    height: auto;
+   text-align: center;
+    margin:auto;
+   display: flex;
+}
+.down{
+    width: 50%;
+    margin: auto;
+    padding-bottom: 30px;
+}
+.up ul {
+    list-style: none ;
+    margin-top: 0px;
+    
+
+
+}
+.up ul li{
+    display: inline-block;
+    padding: 20px;
+}
+.up ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    
+}
+.find {
+    height: 30px;
+    width: 500px;
+    padding-top: 20px;
+    margin-left: 245px;
+ }
+.content {
+    margin-left: 300px;
+    display: grid;
+    align-items: right;
+    grid-template-columns: 150px 150px 150px 150px  ;
+    grid-template-rows: 150px 150px 150px ;
+    grid-column-gap: 50px;
+    overflow: hidden;
+    border-left: 5px solid #002955;
+    height: 700px;
+    padding: 20px ;
+}
+.item img {
+    width: 100px;
+    height: 100px;
+}
+.end{
+    width: 100%;
+    height: 100px;
+    background-color: #002955;
+    clear: left;
+    text-align: center;
+}
+.in4{
+    float: left;
+    width: 300px;
+}
+.in4m a{
+    margin-top: 15px;
+}
+.in4m{
+    width: 300px;
+    position: absolute;
+    left: 260px;
+    display: none;
+    top: 0;
+    padding-right: 20px;
+    padding-left: 20px;
+    background-color: whitesmoke;
+    text-align: left;
+    border: 1px solid #002955;
+}
+.in4 ul li:hover .in4m{
+    display: block;
+}
+.in4 ul li{
+    position: relative;
+    list-style: none;
+    
+    padding: 1em;
+}
+.in4 ul li a{
+    text-decoration: none;
+    display: block;
+    font-size: 30px;
+    color: #002955;
+}
+#tt{
+    text-align: center;
+    color: #002955;
+}
+.end{
+    width: 100%;
+    text-decoration: none;
+    color: white;
+    display: flex;
+}
+.in4m a:hover{
+    background-color:#002955;
+    color: white;
+}
+#end1{
+    width: 70%;
+    float: left;
+}
+#end2{
+    width: 20%;
+}
+#end3{
+    width: 30%;
+    float: right;
+}
+.end4{
+    text-align: left;
+}
+.end4 a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+.end5 a{
+    text-decoration: none;
+    color: white;
+}
+.end5{
+    text-align: left;
+}
+.end10{
+    font-size: 20px;
+    text-align: left;
+}
+
+
+/* contact */
+.contact{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+.contact img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 5px solid rgba(0, 0, 0, .1);
+}
+.contact .icon{
+    display: flex;
+    justify-content: right;
+    flex-direction: row;
+}
+.contact .tooltip {
+    background-color: #ad0c65;
+    font-size: 15px;
+    padding: 5px 10px 10px 10px;
+    color: aqua;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, .2);
+    height: 12px;
+    opacity: 0;
+    margin-top: 12px;
+    margin-right: 6px;
+    pointer-events: none;
+}
+.contact .icon:hover img{
+    background-color: rgba(161, 29, 104, 0.2);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, .2);
+}
+.contact .icon:hover .tooltip{
+    opacity: 1;
+    pointer-events: auto;
+}
+
+/* Modal */
+.modal{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+}
+
+.modal__overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+
+}
+
+.modal_body{
+    background-color: white;
+    margin: auto;
+    position: relative;
+    z-index: 1;
+    border-radius: 5px;
+}
+.btn-dongthongbaotel{
+    float:right;
+    size: 20px;
+    font-size: 18px;
+    margin-top: 5px;
+    margin-right: 5px;
+    background-color: rgb(147, 50, 147);
+    border-radius: 4px;
+    color: aqua;
+}
+.btn-dongthongbaotel:hover{
+    background-color: rgb(160, 77, 160);
+    box-shadow: 0 5px 5px rgba(0, 0, 0, .1);
+}
+.box-tel{
+    padding: 40px;
+}
+.box-tel h3{
+    text-align: center;
+    font-size: 18px;
+    max-width: 400px;
+}
+.box-tel .input-tel{
+    width: 400px;
+    height: 40px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+.box-tel .input-submit{
+    height: 40px;
+    width: 150px;
+    background-color: #002955;
+    color: aqua;
+    border-radius: 5px;
+    margin: 10px 0 10px 130px;
+}
+.box-tel .input-submit:hover{
+    background-color: rgb(147, 50, 147);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, .1);
+}
+.box-tel img{
+    height: 25px;
+    margin: -20px 0 0 170px;
+}
+.box-tel h1{
+    text-align: center;
+    font-size: 40px;
+    max-width: 400px;
+    margin-top: 10px;
+}
+/* form đăng ký đăng nhập */
+.form_dangky{
+    width: 500px;
+    height: fit-content;
+}
+.container{
+    padding: 0 35px;
+}
+.form_dangky_heading{
+    
+    font-size: 2.2rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+.form_dangky_input{
+    width: 94%;
+    height: 30px;
+    margin-top: 22px;
+    padding: 0 10px;
+    font-size: 1.1rem;
+}
+
+.form_dangky__policy-text{
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    text-align: center;
+}
+.btn{
+    min-width: 142px;
+    height: 36px;
+    border: none;
+    border-radius: 3px;
+    font-size: 1.1rem;
+    padding: 0;
+    outline: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn:hover{
+    background-color: rgba(0, 0, 0, 0.08);
+}
+.btn.btn--size{
+    height: 30px;
+    font-size: 15px;
+}
+.btn.btn--primary{
+    color: rgb(227, 236, 238);
+    background-color: #002955;
+}
+
+.form_dangky__controls{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 8px;
+}
+.form_dangky__controls-back{
+    margin-right: 8px;
+}
+.form_dangky__socials{
+    background-color: rgb(221, 211, 221);
+    padding: 12px 36px;
+    display: flex;
+    justify-content: space-between ;
+}
+.btn.btn--primary a {
+    color: white;
+    text-decoration: none;
+  }
+a{
+    text-decoration: none;
+}
+.lienket{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    
+}
+.lienket i{
+    font-size: 20px;
+    margin-right: 15px;
+}
+.lienket button{
+    border-radius: 3px;
+    height: 35px;
+    width: 45%;
+    margin-left: 10px;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+}
+.lienket button:hover{
+    box-shadow: 0 0 2px rgb(64, 14, 14);
+}
+
+.menu-dangnhap{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.menu-dangnhap button{
+    background-color: rgb(147, 50, 147);
+    color: aliceblue;
+    border: 2px solid rebeccapurple;
+    border-radius: 4px;
+    font-size: 15px;
+    padding: 5px;
+    margin-left: 5px;
+}
+.menu-dangnhap button:hover{
+    background-color: rgb(166, 72, 166);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang cá nhân</title>
+    <link rel="stylesheet" href="../CSS/trangcanhan.css">
+</head>
+<body>
+    <div class="modal__overlay"></div>
+    <div class="user_info">
+        <div class="anh">
+            <img class="avatar" src="../Hình ảnh/avatar.jpg" alt="Avatar">
+            <br>
+            <input  type="button" onclick="" value="Chọn ảnh">
+            <br>
+        </div>
+        <label for="username">Tên Đăng Nhập:</label>
+        <input type="text" id="username" readonly value="">
+        <br>
+        <label for="name">Họ và tên:</label>
+        <input type="text" id="name">
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" name="" id="email" readonly value="">
+        <button class="doi_email">Thay đổi</button>
+        <br>
+        <label for="sdt">Số điện thoại:</label>
+        <input type="tel" name="" id="sdt" readonly value="">
+        <button class="doi_tel">Thay đổi</button>
+        <br>
+        <div class="gioitinh">
+            <p class="gt">Giới tính</p>
+            <input type="radio" name="inlineRadioOptions" id="nam" checked>
+            <label for="inlineRadio1">Nam</label>
+            <input type="radio" name="inlineRadioOptions" id="nu">
+            <label for="inlineRadio2">Nữ</label>
+            <input type="radio" name="inlineRadioOptions" id="khac">
+            <label for="inlineRadio3">Khác</label>
+        </div>
+        <label for="bd">Ngày sinh</label>
+        <input type="date" name="" id="bd">
+        <br>
+        <input type="submit" value="Lưu" name="save" id="save">
+    </div>
+</body>
+</html>
+

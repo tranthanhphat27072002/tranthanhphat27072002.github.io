@@ -1,0 +1,32 @@
+.all {
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://giaydantuonganhtuan.vn/images/products/2014/07/20/original/mau-hong-nhat-voi-dom-trang-1405822475.jpg);
+}
+.title{
+    width: 50%;
+    height: 80px;
+    text-align: center;
+    color: purple;
+    background-color: pink;
+    margin: auto;
+    padding: auto;
+   
+    
+}
+.grup ul {
+    list-style-type: circle;
+}
+
+.grup{
+    width: 50%;
+    height: 190px;
+    margin: 0 auto;
+    background-color: pink ;
+}
+.end {
+    width: 50%;
+    height: 80px;
+    background-color: pink;
+    margin: 0 auto;
+}
