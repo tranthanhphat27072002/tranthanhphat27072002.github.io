@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
         integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body style="background-color: #002955;">
     <div class="all">
@@ -52,6 +53,10 @@
                         </a>
                     </li>
                 </ul>
+                <div class="menu-dangnhap">
+                    <button onclick="showformdangnhap()">Đăng nhập</button>
+                    <button onclick="showformdangky()">Đăng ký</button>
+                </div>
             </div>
             <div class="down">
                 <div class="find">
@@ -434,7 +439,77 @@
                 </p>
             </div>
         </div>
-
+            <!--form đăng nhập-->
+            <div id="dang-nhap">
+                <div class="modal">
+                    <div class="modal__overlay"></div>
+                    <div class="modal_body">
+                        <div class="form_dangky">
+                            <div class="container">
+                                <div class="form_dangky__heading">
+                                    <img src="../Hình ảnh/Logov1-Small.png" alt=""style="width:120px ; height: 48px; padding-right: 50px; padding-top: 20px;">
+                                    <h1 class="form_dangky-heading">Đăng nhập</h1> 
+                                </div>
+                                <div class="form_dangky_form">
+                                    <input type="text" id="ip_tendangnhap_dangnhap" class="form_dangky_input" placeholder="Tên đăng nhập"> <br>
+                                    <input type="password" id="ip_matkhau_dangnhap" class="form_dangky_input" placeholder="Mật khẩu"> <br>
+                                </div>
+                                <h2>Hoặc đăng nhập bằng:</h2>
+                                <div class="lienket">
+                                    <button style="background-color: #3B5998;"><i class="fa fa-facebook-official"></i>Facebook</button>
+                                    <button style="background-color: #EA4335;" onclick="location.href='https://accounts.google.com/'"><i class="fa fa-google"></i>Google</button>
+                                </div>
+                                <div class="form_dangky__controls">
+                                    <button class="btn form_dangky__controls-back" onclick="dongformdangnhap()">THOÁT</button>
+                                    <button class="btn btn--primary" type="submit" onclick="check_dangnhap()">ĐĂNG NHẬP</button>
+                                </div>
+                                <div class="form_dangky__controls" style="padding-top: 10px; padding-bottom: 10px;">
+                                    <text style="font-size: 20px; margin-top:5px;margin-right: 10px;color:red;"><b>Nếu bạn chưa có tài khoản</b></text>
+                                    <button class="btn" onclick="dongformdangnhap(), showformdangky()">ĐĂNG KÝ</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--form đăng ký-->
+            <div id="dang-ky">
+                <div class="modal">
+                    <div class="modal__overlay"></div>
+                    <div class="modal_body">
+                        <div class="form_dangky">
+                            <div class="container">
+                                <div class="form_dangky__heading">
+                                    <img src="../Hình ảnh/Logov1-Small.png" alt=""style="width:120px ; height: 48px; padding-right: 50px; padding-top: 20px;">
+                                    <h1 class="form_dangky-heading">Đăng ký</h1>
+                                </div>
+                                <div id="ip_dangky" class="form_dangky_form">
+                                    <input type="text" id="ip_tendangnhap" class="form_dangky_input" placeholder="Tên đăng nhập"> <br>
+                                    <input type="password" id="ip_matkhau" class="form_dangky_input" placeholder="Mật khẩu"> <br>
+                                    <input type="password" id="ip_nhaplaimatkhau" class="form_dangky_input" placeholder="Nhập lại mật khẩu"> <br>
+                                    <input type="email" id="ip_email"  class="form_dangky_input" placeholder="Email"> <br>
+                                    <input type="tel" id="ip_tel"  class="form_dangky_input" placeholder="Số điện thoại">
+                                </div>
+                                <h2>Hoặc đăng nhập bằng:</h2>
+                                <div class="lienket">
+                                    <button style="background-color: #3B5998;"><i class="fa fa-facebook-official"></i>Facebook</button>
+                                    <button style="background-color: #EA4335;"><i class="fa fa-google"></i>Google</button>
+                                </div>
+                                <div class="form_dangky__controls">
+                                    <button class="btn form_dangky__controls-back" onclick="dongformdangky()">THOÁT</button>
+                                    <button class="btn btn--primary" onclick="check_dangky()">ĐĂNG KÝ</button>
+                                </div>
+                                <div class="form_dangky__controls" style="padding-top: 10px; padding-bottom: 10px;">
+                                    <text style="font-size: 20px; margin-top:5px;margin-right: 10px;color:red;"><b>Nếu bạn đã có tài khoản</text>
+                                    <button class="btn" onclick="dongformdangky(), showformdangnhap()"> ĐĂNG NHẬP</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>  
     </div>
+    <script src="../Javascript/index.js"></script> 
 </body>
 </html>
